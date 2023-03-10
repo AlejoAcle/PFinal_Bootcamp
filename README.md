@@ -2,7 +2,7 @@
 
 <p align="center" fontweight="bold">Desarrollo Backend para aplicación de Crossfit</p>
 <p align="center">
-    <img src = "https://github.com/AlejoAcle/Proyecto_3/blob/master/images/kisspng-computer-icons-download-5b28c0a0115797.803029611529397408071.png" widht="200px" height="200px">
+    <img src = "https://github.com/AlejoAcle/PFinal_Bootcamp/blob/master/images/Portada.png" widht="600px" height="200px">
 </p>
 
 ## Comenzando 🚀
