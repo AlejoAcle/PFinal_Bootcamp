@@ -1,0 +1,141 @@
+  
+  .volver{
+    margin: auto;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: -400%;
+
+  }
+  
+  
+  
+  
+  /* //boton modificar */
+
+  .button-5611 {
+    margin: auto;
+    margin-top: -5%;
+    align-items: center;
+    background-color: #b6f2f0;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    /* display: flex; */
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 70%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+  }
+  
+  .button-5611:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-5611:hover:after {
+    transform: translate(0, 0);
+    text-decoration: none !important;
+  }
+  
+  .button-5611:active {
+    background-color: #ffdeda;
+    outline: 0;
+    
+  }
+  
+  .button-5611:hover {
+    outline: 0;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .button-5611 {
+      padding: 0 40px;
+    }
+  }
+
+
+  /* //boton volver */
+
+  .button-5610 {
+    margin: auto;
+    align-items: center;
+    background-color: #ecf2b6;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    /* display: flex; */
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 70%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+  }
+  
+  .button-5610:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-5610:hover:after {
+    transform: translate(0, 0);
+    text-decoration: none !important;
+  }
+  
+  .button-5610:active {
+    background-color: #ffdeda;
+    outline: 0;
+    
+  }
+  
+  .button-5610:hover {
+    outline: 0;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .button-5610 {
+      padding: 0 40px;
+    }
+  }

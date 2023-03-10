@@ -1,0 +1,209 @@
+.banner{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+    font-family:'Pacifico', cursive;
+    text-shadow: 2px 2px #333;
+    margin-top: 15px;
+  }
+  
+  p{
+   color: #111;
+   font-weight: bold;
+   
+   font-size: 15px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+
+  h3{
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.712);
+    background-color: none;
+    border: none;
+    font-size: 29px;
+  }
+  
+/* ojo con eitquetas y clases, si etiqueta .nombreetiqueta si no... directamente */
+  .link{
+    text-decoration: none;
+    margin: auto;
+    align-items: center;
+    margin-right: -80%;
+    width: 20%;
+  }
+
+
+.cardContainer{
+  width: auto;
+  align-items: center;
+}
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    align-items: center;
+    margin: auto;
+    background-color: transparent;
+    font-family: "Pacifico";
+    border: none;
+  }
+
+  .card-header{
+    background-color: transparent;
+    border: none;
+    
+  }
+
+.cajaMarcas{
+  margin-bottom: 20px;
+}
+.footercard{
+  border: none;
+  height: 80px;
+  background: transparent;
+}
+
+.list-group{
+  background-color: transparent;
+  border: none;
+}
+.list-group-item{
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  font-size: 15px;
+}
+  
+
+/* En index.css ya hay rutas importando esta clase de button-56 por lo que lo usa de esos, es muy inteligente. como el iPhone */
+  .button-561 {
+    margin: auto;
+    
+    align-items:center;
+    background-color: #eff2b6;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+  }
+  
+  .button-561:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-561:hover:after {
+    transform: translate(0, 0);
+    text-decoration: none !important;
+  }
+  
+  .button-561:active {
+    background-color: #ffdeda;
+    outline: 0;
+    
+  }
+  
+  .button-561:hover {
+    outline: 0;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .button-561 {
+      padding: 0 40px;
+    }
+  }
+  
+  /* boton registar nueva */
+
+
+  .button-563 {
+    margin: auto;
+    /* margin-top: 30px; */
+    /* margin-bottom: 20px;  */
+    /* margin-left: -35%; */
+    align-items: center;
+    background-color: #b6f2f2;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+  }
+  
+  .button-563:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-563:hover:after {
+    transform: translate(0, 0);
+    text-decoration: none !important;
+  }
+  
+  .button-563:active {
+    background-color: #ffdeda;
+    outline: 0;
+    
+  }
+  
+  .button-563:hover {
+    outline: 0;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .button-563 {
+      padding: 0 40px;
+    }
+  }

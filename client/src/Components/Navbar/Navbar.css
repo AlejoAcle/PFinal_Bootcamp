@@ -1,0 +1,152 @@
+.adminNavbar .Navbutton,
+.userNavbar .Navbutton{
+  font-family:'Pacifico', cursive;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.adminNavbar .Navbutton1,
+.userNavbar .Navbutton1{
+  font-family:'Pacifico', cursive;
+  color: rgba(2, 2, 2, 0.7);
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.adminNavbar .Navbutton2{
+  font-family:'Pacifico', cursive;
+  color: rgba(2, 2, 2, 0.7);
+  font-size: 12px;
+  margin: auto;
+  text-decoration: none;
+  align-items: center;
+}
+
+.adminNavbar .Navbutton2:hover{
+  scale: 1.1;
+}
+
+.administrador{
+  color: rgba(17, 17, 17, 0.741);
+  font-size: 15px;
+  font-family: 'Pacifico';
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.364);
+}
+
+
+.Link{
+  text-decoration: none;
+}
+
+.adminNavbar .Navbutton:hover,
+.userNavbar .Navbutton:hover{
+  scale: 1.2;
+  color: #111;
+}
+
+.banner{
+   font-size: 38px;
+   color: white;
+   font-weight: bold;
+   font-family:'Pacifico', cursive;
+   text-shadow: 2px 2px rgba(51, 51, 51, 0.721);
+   margin-top: 15px;
+}
+
+p{
+  color: #111;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+ }
+
+.colorButton{
+  color: rgba(42, 42, 42, 0.923);
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.456);
+}
+
+.colorButton:hover{
+  color: #111;
+}
+
+
+
+/* estilo botones home */
+.button-56 {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  align-items: center;
+  background-color: #eff2b6;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+  
+  
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+  text-decoration: none !important;
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+  
+}
+
+.button-56:hover {
+  outline: 0;
+  
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+
+.dropdown-menu{
+  background-color: transparent;
+  border: none;
+  margin: auto;
+  width: 30%;
+  justify-content: center;
+  font-size: 12px;
+}

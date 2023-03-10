@@ -1,0 +1,107 @@
+.file-select {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.file-select::before {
+  background-color:  #d772a6d7;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  content: 'Seleccionar'; /* texto por defecto */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.file-select input[type="file"] {
+  opacity: 0;
+  width: 200px;
+  height: 32px;
+  display: inline-block;
+}
+
+#src-file1::before {
+  content: 'Seleccionar Archivo 1';
+}
+
+.profile_photo{
+  width: 350px;
+  height: 200px;
+}
+
+
+
+.button-56 .delete2 {
+    margin: auto;
+    margin-top: 5px;
+    
+    align-items:center;
+    background-color: #f2b6b6;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 10px;
+    height: 20px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 70%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+  }
+  
+  .button-56 .delete2:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -3px;
+    transform: translate(5px, 5px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-56 .delete2:hover:after {
+    transform: translate(0, 0);
+    text-decoration: none !important;
+  }
+  
+  .button-56 .delete2:active {
+    background-color: #ffdeda;
+    outline: 0;
+    
+  }
+  
+  .button-56 .delete2:hover {
+    outline: 0;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .Button-56 delete2 {
+      padding: 0 20px;
+    }
+  }
+
+  .delete2{
+    background-color: rgb(249, 161, 161);
+    
+  }

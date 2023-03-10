@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif,'Lato', sans-serif, 'Pacifico';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffce95;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p{
+  font-family: 'Pacifico';
+  font-size: 23px;
+  color:  #d772a6d7;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.536)
+}
+
+@import url("./Components/Intro/Login.css");
+@import url("./Components/Exercise/ExerciseAdd.css");
+@import url("./Components/Navbar/Navbar.css");
+@import url("./Components/Intro/Register.css");
+@import url("./Components/Exercise/Exercice.css");
+@import url("./Components/Exercise/Marks.css");
+@import url("./Components/Profile/Profile.css");
+@import url("./Components/Clases/ClasesVer.css");
+@import url("./Components/Exercise/MarkAdd");
+@import url("./Components/Home/Home.css");
+@import url("./Components/Logout/Logout.css");
+@import url("./Components/Wod/WodCreate.css");
+@import url("./Components/Wod/WodSee.css");
+@import url("./Components/Wod/WodModify.css");
+@import url("./Components/Clases/ClassesAdd.css"); 
+@import url("./Components/Clases/Timetable.css");
+@import url("./Components/Clases/TimetableAdd.css");
+@import url("./Components/Profile/ProfileDeleteMaster.css");
+@import url("./Components/Profile/ProfilePhoto.css");
+@import url("./Components/Booking/ClasesList.css");
+@import url("./Components/Booking/Booking.css");
+
+

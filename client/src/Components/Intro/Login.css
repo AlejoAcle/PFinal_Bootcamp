@@ -1,0 +1,26 @@
+.form{
+    width: 50%;
+    margin: auto;
+    /* background-color: #ffce95; */
+    align-content: justify;
+
+}
+
+.fondoPopup{
+    background-color: #ffce95;
+    color: rgba(40, 39, 39, 0.964);
+}
+
+.buttonCancel{
+    background-color: #f9392455;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+}
+
+.buttonLogin{
+    background-color:  #8cf40e4f;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+}
